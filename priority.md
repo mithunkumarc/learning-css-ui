@@ -1,9 +1,9 @@
 #### An HTML element can be targeted by multiple CSS rules.
 
-
-         #id selectors are worth 100              first priority
-        .class selectors are worth 10             second priority
-        tag selectors are worth 1                 third priority
+         inline                                   first
+         #id selectors are worth 100              second priority
+        .class selectors are worth 10             third priority
+        tag selectors are worth 1                 fourth priority
 
 
 #### Order of CSS rules
