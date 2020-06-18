@@ -8,4 +8,4 @@
      3.  child
      4.  Descendant
 2.  !important
-3.  margin collapsing
+3.  margin collapsing : use either margin top or botton
