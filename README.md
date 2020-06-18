@@ -7,3 +7,4 @@
      2.  general sibling
      3.  child
      4.  Descendant
+2.  !important
