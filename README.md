@@ -9,3 +9,4 @@
      4.  Descendant
 2.  !important
 3.  margin collapsing : use either margin top or botton
+4.  shorthand properties : eg : border: 5px dashed black ->   combiles  width, style, color
