@@ -1,3 +1,7 @@
+#### reference
+	
+		https://www.youtube.com/playlist?list=PLbGui_ZYuhij_HswuaGK-ABs1vfC5HTKn
+
 ### container vs container-fluid
 
         container : fixed size, takes margin on either sides
