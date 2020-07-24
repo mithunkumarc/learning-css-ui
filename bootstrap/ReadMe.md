@@ -75,3 +75,54 @@
         <div class="col-lg-2 col-xl-3"></div>
         <div class="col-lg-2 col-xl-3"></div>
         <div class="col-lg-2 col-xl-3"></div>
+
+
+
+
+#### auto column size : takes auto size : supports all devices 
+
+                as long as there are 12columns
+                
+                ex : 12 col divided to 3cols each 
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+
+                exg :
+                below example : first two and last takes 2 cols each
+                third div takes 6 cols
+                
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col-6"></div>
+                <div class="col"></div>
+
+
+### column break : taking column to next line
+
+                <div class="col-4></div> // first row
+                <div class="col-4></div> // first row 
+                <div class="w-100"></div> // break row 
+                <div class="col-4></div> // next row
+
+### order-first : giving priority to columns
+
+        column can make appear first 
+
+### order-last : makes column to appear last in row
+
+### order-number : 
+
+        if you use this , you should give order to all columns
+
+
+### offset columns : creating margin left side of col(empty)
+
+        ex : 
+                <div class="col-md-3"></div>
+	        <div class="col-md-3 offset-md-6"></div> // creating 6 col margin to the left side
+
+	        first div takes 3 col in md, 6 col offset(margin), second div takes 3 col md
+	 
+	 
