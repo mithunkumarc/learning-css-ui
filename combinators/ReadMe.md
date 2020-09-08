@@ -1,3 +1,7 @@
+combinators : 
+
+                CSS combinators are explaining the relationship between two selectors. 
+
 general example (descendants exmple) style.css
 
         div p {   /* combintaion of tags to increase specificity, if p tag present inside div , apply this style */
