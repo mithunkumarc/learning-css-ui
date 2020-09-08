@@ -1,7 +1,7 @@
 The following example selects all <p> elements that are placed immediately after <div> elements:
 
 
-        div + p {     /* any p tag next to div tag will get style */
+        div + p {     /* any p tag next to div tag will get style, only immediate p tags which appear after div */
           font-size: 30px;
           background-color: yellow;
         }
