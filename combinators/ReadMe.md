@@ -1,6 +1,14 @@
 combinators : 
 
                 CSS combinators are explaining the relationship between two selectors. 
+                
+                There are four different combinators in CSS:
+
+                  descendant selector (space)
+                  child selector (>)
+                  adjacent sibling selector (+)
+                  general sibling selector (~)
+
 
 general example (descendants exmple) style.css
 
