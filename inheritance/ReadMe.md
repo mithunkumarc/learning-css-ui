@@ -21,7 +21,7 @@ index.html
 
 both div.p and span both inherit font-size from body
 
-Note: Not all styles are inherited , only styles related to text are inherited. Borders, padding and margins are not inherited.
+Note: Not all styles are inherited , only styles related to text(fonts) are inherited. Borders, padding and margins are not inherited.
 
 
 reference : http://tutorials.jenkov.com/css/inheritance.html  
