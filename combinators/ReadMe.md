@@ -4,10 +4,10 @@ combinators :
                 
                 There are four different combinators in CSS:
 
-                  descendant selector (space)
-                  child selector (>)
-                  adjacent sibling selector (+)
-                  general sibling selector (~)
+                  descendant selector (space)   : style applied to child tag , position doesn't matter, applies everywhere
+                  child selector (>)            : immediate child only, not nested
+                  adjacent sibling selector (+) : only adjecent , tag which comes after (not before)
+                  general sibling selector (~)  : sibling , position doesn't matter
 
 
 general example (descendants exmple) style.css
