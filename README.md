@@ -10,3 +10,8 @@
 2.  !important
 3.  margin collapsing : use either margin top or botton
 4.  shorthand properties : eg : border: 5px dashed black ->   combiles  width, style, color
+
+
+#### Specificity :  
+
+     specificity : It is all about resolving conflicts that arise from Multiple CSS rules which target the same element.
