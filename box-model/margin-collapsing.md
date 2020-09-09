@@ -10,3 +10,6 @@ finally there will be only one margin
           <h1>Second</h1> <!-- top margin will merge with h2-->
           </body>
         </html>
+
+
+#### this behaviour cannot be changed, this is how css works
