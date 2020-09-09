@@ -55,3 +55,8 @@ example
         }
 
 #### height and width property sets the height and widht of content. It doesn't include border, padding or margin.
+
+#### auto vs 100%
+
+height: 100% gives the element 100% height of its parent container.  
+height: auto means the element height will depend upon the height of its children.  
