@@ -47,3 +47,7 @@ shortand for margin :
         p {
           margin: 5px;
         }
+
+there are many other shorthand properties are there, for font, outline, border, padding etc.
+
+reference : https://www.geeksforgeeks.org/css-shorthand-properties/  
