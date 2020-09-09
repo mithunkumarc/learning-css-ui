@@ -14,3 +14,10 @@ finally there will be only one margin
 
 #### this behaviour cannot be changed, this is how css works
 #### best practice , use either top or bottom margin according to requirement
+
+
+### Rules of margin collapsing 
+
+1. happens only vertically
+2. happens only with block line elements
+3. happens only if two elements directly in contact with each other
