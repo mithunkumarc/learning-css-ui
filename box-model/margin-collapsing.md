@@ -13,3 +13,4 @@ finally there will be only one margin
 
 
 #### this behaviour cannot be changed, this is how css works
+#### best practice , use either top or bottom margin according to requirement
