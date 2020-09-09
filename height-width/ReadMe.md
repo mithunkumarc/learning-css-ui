@@ -53,3 +53,5 @@ example
           height: 100%;
           background-color: blue;
         }
+
+#### height and width property sets the height and widht of content. It doesn't include border, padding or margin.
