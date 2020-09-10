@@ -1,6 +1,3 @@
-height propery = height of content(includes border and padding), excludes margin.
-
-
 width of the block line element can be varied , but it still takes full line. 
 so change display property to inline, now element width equal to the width value we have set
 
