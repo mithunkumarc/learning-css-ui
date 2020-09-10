@@ -1,3 +1,8 @@
+#### height and width properties : 
+
+                width + padding + border = actual width of an element
+                height + padding + border = actual height of an element
+
 width of the block line element can be varied , but it still takes full line. 
 so change display property to inline, now element width equal to the width value we have set
 
