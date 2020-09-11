@@ -7,3 +7,35 @@ For example, it can be used to:
         Style an element when it gets focus
         
 reference:  https://www.w3schools.com/css/css_pseudo_classes.asp
+
+example : 
+
+                p {
+                  font-size: 30px;
+                  font-weight: bold;
+                }
+
+                /* when element is hovered */
+                p:hover {
+                  color: red;
+                  font-size: 30px;
+                  font-weight: bold;
+                }
+
+                /* when element is clicked */
+                p:active {
+                  color: yellow;
+                  font-size: 30px;
+                  font-weight: bold;
+                  background-color: red;
+                }
+
+
+#### pseudo class vs pseudo element : 
+
+A CSS pseudo-element is used to style specified parts of an element.
+
+        For example, it can be used to:
+
+        Style the first letter, or line, of an element
+        Insert content before, or after, the content of an element
