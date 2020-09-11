@@ -36,7 +36,19 @@ display: none;  -
                 This means that the element is not visible and it also doesn't "block its position". 
                 Other elements can (and will) take its place instead.
 
+                p {
+                  height: 100px;
+                  width: 100px;
+                  display: none;
+                }
+
 visibility hidden : 
 
                 If you only want to hide an element but you want to keep its place 
                 (i.e. other elements don't fill the empty spot),you can use visibility: hidden.
+                
+                p {
+                  height: 100px;
+                  width: 100px;
+                  visibility: hidden;
+                }
