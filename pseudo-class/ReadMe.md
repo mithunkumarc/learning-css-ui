@@ -45,3 +45,15 @@ A CSS pseudo-element is used to style specified parts of an element.
 
         Style the first letter, or line, of an element
         Insert content before, or after, the content of an element
+
+
+### Grouping pseudo classes : if two pseudo class has same style then group them together
+
+#### example : grouping hover and active together since they need same functionality
+
+        p:hover,active {
+          color: red;
+          font-size: 30px;
+          font-weight: bold;
+        }
+
