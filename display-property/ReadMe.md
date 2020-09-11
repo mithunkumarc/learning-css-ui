@@ -27,3 +27,16 @@ inline-block: important : you can use this property to bring two inline or block
         html {
           height: 100%;
         }
+
+#### display none vs visiblity hidden : 
+
+display: none;  - 
+
+                this value removes the element to which you apply it from the document flow. 
+                This means that the element is not visible and it also doesn't "block its position". 
+                Other elements can (and will) take its place instead.
+
+visibility hidden : 
+
+                If you only want to hide an element but you want to keep its place 
+                (i.e. other elements don't fill the empty spot),you can use visibility: hidden.
