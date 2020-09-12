@@ -13,6 +13,7 @@ CSS Layout position property
         if a element is set with relative, setting top/bottom or left/right will move element from its original position. 
         if you set top : 100px, element will move below from its original position.
         if you set bottom : 100px, element will move above/upside from its orginal position.
+        there is no question of parent container because, element always moves with respect to its original/normal postion, it doesn't care parents position.
 
 style.css
 
@@ -53,6 +54,7 @@ index.html
             
             if you set top/bottom or left/right, it starts moving with respect to original/normal position of parent element.
             if there is no parent element, then body will be considered as parent element.
+            so parent container plays important role. check if parent is a another element or screen(document body itself)
             
             .samplebox {
               height: 100px;
