@@ -69,8 +69,8 @@ index.html
 
 4. fixed : 
 
-          if element is set its property as fixed, it will come out of normal flow(till now same as relative).
-          fixed positiion element will stays in same position if you scroll screen. but relative position move with scroll.
+          if element is set its property as fixed, it will come out of normal flow(till now same as absolute).
+          fixed positiion element will stays in same position if you scroll screen. but absolute position move with scroll.
           fixed will always consider its parent as screen body. if you set top/bottom or left/right, it will move with respect to screen/viewport/body.
           even if you put parent element for fixed ,it doesn't care, it consider viewport as parent.
 
@@ -86,4 +86,17 @@ index.html
           }
 
 
-5. sticky : 
+5. sticky : behaves as combination of relative and fixed.
+   when u scroll the page, element will move until it reaches the position(example top 20px : parent container is always screen/ it doesnt consider other container parent) 
+   when element reaches position, its position becomes fixed.
+   
+   
+           .samplebox {
+                  height: 100px;
+                  width: 100px;
+                  border-style: solid;
+                  border-width: 2px;
+                  border-color: red;
+                  position: sticky;
+                  top: 20px;    /*element will scroll as long as its distance is >= 20px from top, when it reaches 20px from top, it stops scrolling */
+                }
