@@ -28,3 +28,8 @@ index.html
 
 refer : https://www.w3schools.com/cssref/css3_pr_background-size.asp
 https://www.w3schools.com/cssref/pr_background-position.asp
+https://www.w3schools.com/cssref/css3_pr_background-origin.asp
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://www.w3schools.com/cssref/css3_pr_background-clip.asp
+https://www.w3schools.com/cssref/pr_background-repeat.asp
+https://www.w3schools.com/cssref/pr_background-attachment.asp
