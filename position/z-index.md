@@ -10,4 +10,4 @@ z-index : default value is zero/auto
 
 ### Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).
 
-#### prefer zindex on children elements
+#### prefer zindex on children elements ?? need to understand more.
