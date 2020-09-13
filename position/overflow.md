@@ -42,3 +42,6 @@ style.css
           top: 370px;               /* this box will move 370px away from top of container, some part will be clipped , but visible on scrolling */
           left: 0px;
         }
+
+
+#### Note; If element parent is body, if overflow not working after declaring in body, try adding overflow property in html too.
