@@ -90,9 +90,15 @@ index.html
           }
 
 
-5. sticky : behaves as combination of relative and fixed.
-   when u scroll the page, element will move until it reaches the position(example top 20px : parent container is always screen/ it doesnt consider other container parent) 
+5. sticky : 
+   
+   behaves as combination of relative and fixed.
+   when u scroll the page, element will move until it reaches the position(example top 20px). when it reaches top 20px. 
    when element reaches position, its position becomes fixed.
+   
+   1. case : parent container is viewport(screen) : sticky element position will be fixed after reaching top/bottom or left/right position
+   2. case : parent container is another container(div) : sticky element position will be fixed till parent container visible on screent.
+                onscroll if parent container disappears then sticky element also scrolled up along with parent and disappear.
    
    
            .samplebox {
@@ -102,5 +108,5 @@ index.html
                   border-width: 2px;
                   border-color: red;
                   position: sticky;
-                  top: 20px;    /*element will scroll as long as its distance is >= 20px from top, when it reaches 20px from top, it stops scrolling */
+                  top: 20px;    /* element will scroll as long as its distance is >= 20px from top, when it reaches 20px from top, it stops scrolling */
                 }
