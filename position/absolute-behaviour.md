@@ -1,6 +1,6 @@
 #### aboslute element always come out of normal flow of document, its space will be taken by below element.  
 #### if your element is aboslute, its movement (top/bottom left/right) will be with respect to its parent.  
-#### condition : parent must be with position relative. or else outer screen will be considered as parent.  
+#### condition : parent must have declared position property. or else outer screen will be considered as parent.  
 
 example : index.html
 
@@ -23,7 +23,7 @@ style.css : case 1 : parent element is not relative
             width: 400px;
             border-style: solid;
             border-color: red;
-            /* position: relative; */     /* here u can see parent container is not reative*/
+            /* position: relative; */     /* here u can see position is commented, so parent will be outser screen.(viewport)*/
           }
 
           .box {
@@ -38,7 +38,7 @@ style.css : case 1 : parent element is not relative
 
 
 
-style.css : case 2 : parent element is relative
+style.css : case 2 : parent element has position property
 
 
             .container {
@@ -46,7 +46,7 @@ style.css : case 2 : parent element is relative
               width: 400px;
               border-style: solid;
               border-color: red;
-              position: relative;     /* parent container is relative */
+              position: relative;     /* parent container is relative,it can be fixed / absolute too */
             }
 
             .box {
@@ -54,7 +54,7 @@ style.css : case 2 : parent element is relative
               width: 40px;
               border-style: solid;
               border-color: green;
-              position: absolute;   /* parent conatiner is relative*/
-              top: 0px;             /* box will move top left of parent container*/
+              position: absolute;   /* parent container has position property */
+              top: 0px;             /* box will move top left of parent container */
               left: 0px;
             }
