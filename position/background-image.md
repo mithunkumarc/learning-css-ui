@@ -24,3 +24,6 @@ index.html
             <div>hello world</div>
           </body>
         </html>
+
+
+refer : https://www.w3schools.com/cssref/css3_pr_background-size.asp
