@@ -42,6 +42,7 @@ index.html
 3. absolute :
 
           setting absolute to an element makes it come out of normal flow , below element will take its place.
+          setting top/bottom left/right moves absolute element with respect to context of parent element(if it's position is relative) or context of screen.
           
           .samplebox {
               height: 100px;
@@ -52,9 +53,10 @@ index.html
               position: absolute;
             }
             
-            if you set top/bottom or left/right, it starts moving with respect to original/normal position of parent element.
-            if there is no parent element, then body will be considered as parent element.
-            so parent container plays important role. check if parent is a another element or screen(document body itself)
+            if you set top/bottom or left/right, it starts moving with respect to original/normal position of parent element(parent element position must be relative).
+            if there is no parent element(with position relative), then body will be considered as parent element.
+            so parent container plays important role(with position relative). 
+            For absolute position, check whether there is a parent(with relative position) or screen(document body itself)
             
             .samplebox {
               height: 100px;
