@@ -32,7 +32,7 @@ em
 
 2. if the element has position absolute, check parent element(includes padding) position property ; absolure, relative, fixed and sticky. use percentage in child.
 
-3. 
+3. if the element position is static/relative ancestor migth be block level element or viewport(outer screen)  
 
 
 
