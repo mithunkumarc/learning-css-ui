@@ -1,4 +1,10 @@
-you can target style for specific screen size : 
+you can target style for specific screen size : test below styles in developer tools by reducing screen size
+
+html
+         
+          <div class="candidate_name">Ravi Shankar</div>
+
+style.css
 
           /*style for desktop*/
           .candidate_name {
