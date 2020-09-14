@@ -110,3 +110,7 @@ index.html
                   position: sticky;
                   top: 20px;    /* element will scroll as long as its distance is >= 20px from top, when it reaches 20px from top, it stops scrolling */
                 }
+
+### links 
+
+https://learn.shayhowe.com/advanced-html-css/detailed-css-positioning/
