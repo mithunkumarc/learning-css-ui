@@ -30,8 +30,9 @@ em
 
 1. if the element has position fixed then parent might be viewport. so use width/height as %. pixel varies when screen resized so use %.
 
-2. if the element has position absolute, check parent element position property ; absolure, relative, fixed and sticky. use percentage in child.
+2. if the element has position absolute, check parent element(includes padding) position property ; absolure, relative, fixed and sticky. use percentage in child.
 
+3. 
 
 
 
