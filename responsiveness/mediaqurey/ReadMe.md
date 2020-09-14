@@ -4,7 +4,7 @@ html
          
           <div class="candidate_name">Ravi Shankar</div>
 
-style.css
+style.css : put all media queries at the bottom of style sheet: bestpractice
 
           /*style for desktop*/
           .candidate_name {
