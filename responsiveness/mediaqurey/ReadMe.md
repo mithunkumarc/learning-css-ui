@@ -32,3 +32,21 @@ style.css : put all media queries at the bottom of style sheet: bestpractice
               color: rebeccapurple;
             }
           }
+          
+#### handling responsiveness with portrait and landscape : 
+
+
+                  @media(max-width:880px) and (orientation:portrait){
+                              .candidate_name {
+                                font-size: 15px;      /*change according values*/
+                                color: rebeccapurple;
+                              }
+                            }
+
+
+                  @media(max-width:880px) and (orientation:landscape){
+                              .candidate_name {
+                                font-size: 15px;    /*change according values*/
+                                color: rebeccapurple;
+                              }
+                            }
