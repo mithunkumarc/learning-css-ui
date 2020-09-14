@@ -3,8 +3,8 @@ Units :
 2. percentages :      %
 3. root em :          rem : fontsize
 4. em :               em : fontsize
-5. viewport height :  vh
-6. viewport widht :   vw
+5. viewport height :  vh (instead of 100% height to conver screen u can use 100vh)
+6. viewport widht :   vw (instead of 100% width to conver screen u can use 100vw)
 
 questions:  
 1. how is the size calculated
