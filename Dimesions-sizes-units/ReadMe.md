@@ -48,7 +48,7 @@ em
 2. padding/margin : rem (dynamic size with respect to user font setting)
 3. border : px (fixed size, px doesnt vary with respect to user font setting)
 4. width height : % or vw, % or vh
-5. top bottom left righ : %
+5. top bottom left right : %
 
 
 
