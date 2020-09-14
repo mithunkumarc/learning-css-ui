@@ -26,6 +26,10 @@ em
 
 4. percentages : with respect to parent
 
+### if fonts are changed in browser settings, the unset fontsize in css will change according to browser settings.
+### if u have set the size for fonts in css, browser fontsize settings will not have any impact.
+### if u want to change your font with respect to browser settings use rem/em
+
 ## Rules to remember : 
 
 1. if the element has position fixed then parent might be viewport. so use width/height as %. pixel varies when screen resized so use %.
