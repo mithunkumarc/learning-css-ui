@@ -30,7 +30,9 @@ em
 
 ### if fonts are changed in browser settings, the unset fontsize in css will change according to browser settings.
 ### if u have set the size for fonts in css, browser fontsize settings will not have any impact.
-### if u want to change your font with respect to browser settings use em
+### if u want to change your font with respect to browser settings use em or rem
+### drawback of em : inherits parent size and multiplies, use em when there is no inheritance complexity.
+### use rem when there is complexity issues. caluculation : browsersetting fontsize multiplied by (number)rem.
 
 ## Rules to remember : 
 
