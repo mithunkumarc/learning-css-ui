@@ -42,5 +42,13 @@ em
 
 3. if the element position is static/relative ancestor migth be block level element or viewport(outer screen)  
 
+### which unit i use : 
+
+1. font size : rem( em : children only)
+2. padding/margin : rem (dynamic size with respect to user font setting)
+3. border : px (fixed size, px doesnt vary with respect to user font setting)
+4. width height : % or vw, % or vh
+5. top bottom left righ : %
+
 
 
