@@ -1,8 +1,8 @@
 Units : 
 1. pixels :           px
 2. percentages :      %
-3. root em :          rem
-4. em :               em
+3. root em :          rem : fontsize
+4. em :               em : fontsize
 5. viewport height :  vh
 6. viewport widht :   vw
 
@@ -30,7 +30,7 @@ em
 
 ### if fonts are changed in browser settings, the unset fontsize in css will change according to browser settings.
 ### if u have set the size for fonts in css, browser fontsize settings will not have any impact.
-### if u want to change your font with respect to browser settings use rem/em
+### if u want to change your font with respect to browser settings use em
 
 ## Rules to remember : 
 
