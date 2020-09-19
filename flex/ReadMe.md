@@ -24,3 +24,7 @@ Children are called Flex items
       order
       flex
       algin-self
+
+
+if flex container is in horizontal direction, main axis is also horizontal. cross axis is vertical.  
+if flex container is in vertical direction, main axis is also vertical. cross axis is horizontal.  
