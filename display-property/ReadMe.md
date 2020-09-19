@@ -52,3 +52,10 @@ visibility hidden :
                   width: 100px;
                   visibility: hidden;
                 }
+
+
+
+#### inline-block : 
+
+        two div can be brought in same line using inline-block, you can set width for div if you set display:inline-block.
+        inline-block using in block elements like div, you can divide screen. but try to use flex.
