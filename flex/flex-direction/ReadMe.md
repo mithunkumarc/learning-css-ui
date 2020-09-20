@@ -30,3 +30,15 @@ flex-direction: column-reverse;
           Elements starts displaying from Bottom to top. (opposite of flex-direction: column).
           main axis is still column but origin of main axis is opposite(bottom to top)
           cross axis is row. perpendicular to main axis.
+
+flex-direction: initial;
+
+          default value(horizontal/row)
+          
+flex-direction: inherited;
+
+          same as parent
+          
+flex-direction: unset;
+        
+          to be updated
