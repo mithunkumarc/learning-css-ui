@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>overrides align items</p>
+        <p>if flex item not given fixed height, align self stretch
+            will take whole height of flex container
+            , check the height of each flex item
+        </p>
+        <div class="container">
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+            <div class="item4"></div>
+            <div class="item5"></div>
+        </div>
+        <ul class="flex-container">
+            <li class="flex-item flex-start">1</li>
+            <li class="flex-item flex-end">2</li>
+            <li class="flex-item center">3</li>
+            <li class="flex-item baseline">4</li>
+            <li class="flex-item stretch">5</li>
+          </ul>
+    </body>
+</html>

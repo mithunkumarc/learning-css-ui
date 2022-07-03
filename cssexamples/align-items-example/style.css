@@ -1,0 +1,27 @@
+.container {
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    /* change below to see how alingn content works */
+    align-items: end;
+}
+
+.item1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.item2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.item3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
