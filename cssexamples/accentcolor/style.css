@@ -1,4 +1,7 @@
 input {
     accent-color: red;
-    border-color: blue;
+}
+
+progress {
+    accent-color: blue;
 }
