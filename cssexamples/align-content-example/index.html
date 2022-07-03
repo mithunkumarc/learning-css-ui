@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>align content : works only with flex-wrap</p>
+        <p>**with out flex wrap, child flex items will try to adjust within 
+            parent flex container in the same row/column, try removing flex wrap and see</p>
+        <p>below example includes flex wrap as wrap
+            , align content works with flex wrap, 
+        </p>
+        <p>flex wrap will make child items to go next row if child items width exceed parent container</p>
+        <div class="container">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <!-- uncomment below and see how wrap works -->
+            <!-- <div class="fourth"></div>
+            <div class="fifth"></div> -->
+        </div>
+
+    </body>
+</html>
