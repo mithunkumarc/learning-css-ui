@@ -8,3 +8,4 @@
 8. ch unit : its new, use only after knowing
 9. selection: pseudo, mark
 10. clamp
+11. custom properties , var(--var_name)
