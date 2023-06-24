@@ -6,5 +6,5 @@
 6. :root { //style }
 7. px, em, rem : use rem as default
 8. ch unit : its new, use only after knowing
-9. selection: pseudo
+9. selection: pseudo, mark
 10. clamp
