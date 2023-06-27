@@ -11,3 +11,4 @@
 11. custom properties , var(--var_name)
 12. after before : https://www.youtube.com/watch?v=6mqmmUmX5iQ
 13. dark mode: media(prefer color scheme : dard)
+14. color : hue, saturation, light : hsl
