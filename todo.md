@@ -12,3 +12,4 @@
 12. after before : https://www.youtube.com/watch?v=6mqmmUmX5iQ
 13. dark mode: media(prefer color scheme : dard)
 14. color : hue, saturation, light : hsl
+15. https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
