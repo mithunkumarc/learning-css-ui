@@ -13,3 +13,7 @@
 13. dark mode: media(prefer color scheme : dard)
 14. color : hue, saturation, light : hsl
 15. https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+16. scss
+17. sticky footer
+18. enable media query <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
