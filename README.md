@@ -30,3 +30,7 @@
 ## TODO
 
     https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API
+
+#### read
+
+    https://dev.to/smitterhane/13-css-tricks-that-will-give-you-an-adrenaline-rush-5908
