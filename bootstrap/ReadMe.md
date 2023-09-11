@@ -130,3 +130,17 @@
 	        first div takes 3 col in md, 6 col offset(margin), second div takes 3 col md
 	 
 	 
+
+#### using responsive col 
+
+ 	<div>
+		<div class="col-sm-3"></div> <!-- 1 -->
+ 		<div class="col-sm-9"></div> <! -- 2 -->
+	</div>
+ 
+	1. takes 3 cells in grid out of 12 above small devices
+ 	less than it become responsive 
+ 	2. takes 9 cells in grid out of 12 above small devices
+
+  	1 and 2 shows in rows above small devices
+   	1 and 2 shows in columns below samll devices
