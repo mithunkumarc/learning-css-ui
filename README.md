@@ -34,6 +34,8 @@
 ## TODO
 
     https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API
+    typography
+    text effects
 
 #### read
 
