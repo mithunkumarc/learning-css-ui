@@ -1,5 +1,9 @@
 # learning-css
 
+## HTML specification
+
+    https://html.spec.whatwg.org/
+
 # api specifications
 
     https://realworld-docs.netlify.app/
