@@ -4,6 +4,10 @@
 
     https://html.spec.whatwg.org/
 
+## CSS specification
+
+    https://www.w3.org/Style/CSS/
+
 # api specifications
 
     https://realworld-docs.netlify.app/
